@@ -3,11 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro Tailwind CSS</title>
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Exploring TailWind CSS</title>
 </head>
 <body>
-    <h1>Explore TailWind CSS</h1>
-    <h3>Tailwind CSS is mordern version</h3>
-    <p>This is very essentail for us </p>
+    <h1 class="text-3xl  mx-auto border">Exploring TailWind CSS</h1>
+    <p class="text-2xl max-w-4xl mx-auto border p-12 bg-green-400 lg:bg-red-500" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui incidunt beatae, quia modi id iste iusto sequi accusantium eligendi officiis dolor perferendis. Minus hic laboriosam libero, earum qui maxime blanditiis explicabo labore cum veniam, fuga voluptas assumenda minima quam ullam architecto. Nemo labore consectetur dolore animi qui perspiciatis quod earum aliquid eveniet doloremque quibusdam nihil, aliquam ad alias libero incidunt sunt eum quaerat placeat eos deleniti. Perferendis tempore ipsam non, officia eum maxime suscipit vel sit esse quis, aliquid modi. Vitae ratione saepe libero ea iusto! Necessitatibus, fugiat quam reiciendis odit nostrum laboriosam non, beatae velit rem laborum consequuntur officiis repellendus dignissimos natus placeat, quae voluptatibus facilis voluptate labore! Debitis, quasi! Expedita ex tempora qui nisi nihil molestiae, non quibusdam accusamus? Eius deserunt quasi quibusdam corporis consectetur facere tempora, quam provident repudiandae, nisi reprehenderit eaque consequatur, nemo quisquam! Beatae itaque dolorem nihil iusto neque error, officia ipsam aut magni rem nostrum ratione obcaecati labore ea odio quisquam officiis pariatur maiores aliquam dolorum eveniet asperiores, corporis incidunt? Quia distinctio repellat consequatur! Quas cupiditate fugiat mollitia dignissimos, eaque eveniet dolorem aut repellat culpa quae et consectetur natus temporibus reprehenderit nemo ex at quo molestias, hic exercitationem ratione. Porro, minus. Sapiente, at esse.</p>
+
+    <!--Flex Layout-->
+    <h1>Explore Flex Layout </h1>
+    <div class="flex mb-10 p-12">
+    <div class="border p-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, fugit inventore cumque saepe illum aut, repellendus dolores culpa dignissimos vel perferendis hic animi assumenda debitis, exercitationem accusantium dolorem quo eum.</div>
+    <div class="border p-12">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem odit id iusto reiciendis placeat veniam, nostrum ut distinctio nesciunt?
+    </div>
+    <div class="border p-12">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum provident aut et numquam. Sequi temporibus nisi ad. Cumque, illo eligendi consequatur illum, amet provident nihil sapiente facere cupiditate omnis perferendis commodi ad, reprehenderit sit!
+    </div>
+    </div>
+    <!--Explore grid layout -->
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-center gap-2">
+        <div class="bg-pink-400 text-3xl">Box-1</div>
+        <div class="bg-pink-400 text-3xl">Box-2</div>
+        <div class="bg-pink-400 text-3xl">Box-3</div>
+        <div class="bg-pink-400 text-3xl">Box-4</div>
+        <div class="bg-pink-400 text-3xl">Box-5</div>
+        <div class=" xl:col-span-2 bg-pink-400 text-3xl">Box-6</div>
+        <div class="bg-pink-400 text-3xl">Box-7</div>
+        <div class="bg-pink-400 text-3xl">Box-8</div>
+        <div class="xl:row-span-3 bg-pink-400 text-3xl">Box-9</div>
+        <div class="bg-pink-400 text-3xl">Box-10</div>
+        <div class="bg-pink-400 text-3xl">Box-11</div>
+        <div class="bg-pink-400 text-3xl">Box-12</div>
+    </section>
+    <section>
+        <h1 class="text-4xl mb-12">Some text</h1>
+    </section>
 </body>
 </html>
